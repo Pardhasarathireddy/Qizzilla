@@ -17,6 +17,8 @@ header{
 }
 .logo_container{
     margin-left: 4%;
+    width: 50px;
+
 }
 .navbar{
     display: flex;
@@ -44,8 +46,8 @@ header{
 .search_bar{
     display: flex;
     height: 40px;
-    min-width: 400px;
-    width: 30%;
+    min-width: 300px;
+    width: 25%;
 }
 .search_icon{
     box-sizing: content-box;
@@ -83,6 +85,14 @@ header{
     flex-direction: column;
     align-items: center;
 }
+.enter_code{
+    margin-right: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin-top: 8px;
+}
 .action_bar a{
     text-decoration: none;
     color: #282c3f;
@@ -114,6 +124,7 @@ header{
 .photo_section{
     flex: 1;
     margin-right: 20px;
+    height: 100%;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -152,8 +163,7 @@ header{
 }
 footer{
     background-color: #282c3f;
-    color: #ffffff;
-    text-align: center;
+    color: #ffffff;    text-align: center;
     padding: 20px;
     position: relative;
     bottom: 0;
